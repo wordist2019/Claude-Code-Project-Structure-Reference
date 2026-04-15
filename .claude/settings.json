@@ -1,0 +1,16 @@
+{
+  "model": "claude-opus-4-5",
+  "context": {
+    "autoCompact": true,
+    "compactThreshold": 0.8
+  },
+  "hooks": {
+    "PreCommit": ".claude/hooks/pre-commit.sh",
+    "PostToolUse": ".claude/hooks/post-tool-use.sh",
+    "Notification": ".claude/hooks/notify.sh"
+  },
+  "permissions": {
+    "allow": ["read", "write", "execute"],
+    "deny": []
+  }
+}

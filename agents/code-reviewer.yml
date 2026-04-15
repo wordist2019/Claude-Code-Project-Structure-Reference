@@ -1,0 +1,12 @@
+name: code-reviewer
+description: Autonomous agent for reviewing code changes and PRs
+model: claude-opus-4-5
+skill: skills/code-review/SKILL.md
+tools:
+  - read_file
+  - list_files
+  - run_command
+triggers:
+  - "review this"
+  - "check my code"
+  - "PR review"

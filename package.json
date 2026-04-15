@@ -1,0 +1,35 @@
+{
+  "name": "claude-code-project-structure-reference",
+  "version": "1.0.0",
+  "description": "A professional, production-ready project scaffold for building AI-assisted development workflows with Claude Code.",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "playwright test",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "anthropic",
+    "ai-assisted-development",
+    "mcp",
+    "skills",
+    "agents",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@playwright/test": "^1.40.0"
+  }
+}
