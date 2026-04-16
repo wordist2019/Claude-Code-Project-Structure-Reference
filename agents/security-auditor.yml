@@ -1,0 +1,13 @@
+name: security-auditor
+description: Autonomous agent for scanning code for vulnerabilities, secrets, and security anti-patterns
+model: claude-opus-4-5
+skill: skills/security-audit/SKILL.md
+tools:
+  - read_file
+  - list_files
+  - run_command
+triggers:
+  - "security audit"
+  - "scan for vulnerabilities"
+  - "check for secrets"
+  - "security review"

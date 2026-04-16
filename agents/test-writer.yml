@@ -1,0 +1,13 @@
+name: test-writer
+description: Autonomous agent for generating unit, integration, and e2e tests
+model: claude-opus-4-5
+skill: skills/test-writer/SKILL.md
+tools:
+  - read_file
+  - write_file
+  - list_files
+triggers:
+  - "write tests"
+  - "generate tests"
+  - "add test coverage"
+  - "create specs"

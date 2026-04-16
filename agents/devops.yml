@@ -1,0 +1,13 @@
+name: devops
+description: Autonomous agent for handling deployment, CI/CD, infrastructure tasks, and environment configuration
+model: claude-opus-4-5
+tools:
+  - read_file
+  - write_file
+  - run_command
+triggers:
+  - "deploy"
+  - "ci/cd"
+  - "dockerfile"
+  - "infrastructure"
+  - "environment setup"
