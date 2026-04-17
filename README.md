@@ -116,7 +116,7 @@ Claude-Code-Project-Structure-Reference/
 npm i -g @anthropic-ai/claude-code
 
 # 2. Clone this reference repo
-git clone https://github.com/YOUR_USERNAME/Claude-Code-Project-Structure-Reference.git
+git clone https://github.com/wordist2019/Claude-Code-Project-Structure-Reference.git
 cd Claude-Code-Project-Structure-Reference
 
 # 3. Launch Claude in your project
